@@ -1,4 +1,3 @@
-// src/pages/GeneralFacultyPage.jsx
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import TeacherCard from '../Components/academics/TeacherCard';
@@ -25,7 +24,7 @@ const GeneralFacultyPage = () => {
   return (
     <>
       <Navbar />
-      <div className="bg-blue-500 text-white my-32 py-20 px-4 md:px-8 lg:px-16">
+      <div className="bg-blue-500 text-white my-24 py-20 px-4 md:px-8 lg:px-16">
         <motion.div
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
@@ -33,12 +32,12 @@ const GeneralFacultyPage = () => {
           className="max-w-3xl mx-auto text-center"
         >
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Meet Our Esteemed Faculty</h1>
-          <p className="text-lg md:text-xl mb-8">
+          <p className="text-lg md:text-xl ">
             Discover the brilliant minds shaping the future at our college.
           </p>
         </motion.div>
       </div>
-      <div className=" p-6 min-h-screen flex flex-col justify-between">
+      <div className=" px-6 min-h-screen flex flex-col justify-between">
         <div className="flex-grow">
           {faculty.length === 0 ? (
             <div className="flex justify-center items-center min-h-[300px]">
@@ -47,7 +46,7 @@ const GeneralFacultyPage = () => {
           ) : (
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
               {faculty.map((teacher) => (
-                <TeacherCard key={teacher.id} teacher={teacher} />
+                <TeacherCard key={teacher._id} teacher={teacher} />
               ))}
             </div>
           )}
