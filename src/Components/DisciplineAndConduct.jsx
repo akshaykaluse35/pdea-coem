@@ -20,37 +20,37 @@ function DisciplineAndConduct() {
       transition={{ duration: 0.3 }}
       className={"list-decimal pl-4 mt-4 text-gray-700"}>
         <li>
-        It is imperative that the student attends classes from the day of opening to the last day of each term during the academic year.
+        It is essential for students to attend classes from the opening day to the last day of each term during the academic year.
         </li>
         <li>
-        Student must be regular in attendance for theory and practical classes. In case the attendance falls short of 75% for each, theory and practicals, term will not be granted.
+        Students must maintain regular attendance for both theory and practical classes. If attendance falls below 75% for either, the term will not be granted.
         </li>
         <li>
-        The student should complete all the term work such as Journals, Drawing Sheets, Workshop or any other assignment as per schedule.
+        Students should complete all term work, including journals, drawing sheets, workshop assignments, and any other tasks as per the schedule.
         </li>
         <li>
-        Students must maintain punctuality while attending all the theory and practical classes.
+        Students must be punctual for all theory and practical classes.
         </li>
         <li>
-        Students must put-on college I-Card every day without fail and attend the college in full college uniform on the specified days.
+        Students must wear their college ID card every day and attend the college in full uniform on specified days.
         </li>
         <li>
-        Strict disciplinary action will be taken against those students who fail to attend the tests, practicals, tutorials or theory classes.
+        Strict disciplinary action will be taken against students who fail to attend tests, practicals, tutorials, or theory classes.
         </li>
         <li>
-        Student and parents should specially note that if the student fails to complete the term work regularly and to the entire satisfaction of the Head of the Department, his/her term will not be granted and will not be allowed to appear for the University examination.
+        Students and parents should note that if a student fails to complete term work regularly and to the satisfaction of the Head of the Department, the term will not be granted, and the student will not be allowed to appear for the University examination.
         </li>
         <li>
-        The student should note that he / she is responsible to the authorities of the Institute not only for his / her conduct in the premises of the Institute but also for his / her general behavior outside.
+        Students are responsible to the authorities of the Institute not only for their conduct within the premises but also for their general behavior outside.
         </li>
         <li>
-        Any reported or observed objectionable conduct within or outside the premises of the Institute, will make him / her liable for strict disciplinary action.
+        Any reported or observed objectionable conduct within or outside the Institute premises will result in strict disciplinary action.
         </li>
         <li>
-        Student should not participate in any political and antisocial activities.
+        Students should not participate in any political or antisocial activities.
         </li>
         <li>
-        Student should help in maintaining the buildings and the campus of the Institute clean and tidy.
+        Students should help maintain the cleanliness and tidiness of the Institute's buildings and campus.
         </li>
         {/* Add additional rules and regulations here */}
       </motion.ol>

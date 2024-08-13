@@ -58,10 +58,10 @@ function PGContent() {
           <hr /> 
 
           <p className='my-10 text-blue-900'>
-          The MBA programme prepares a student for domestics and global careers in diverse sectors of industry. The MBA programme facilitates learning in theory and practice of different functional areas of management and equips the students with an integrated approach to various functions of management. However demand of managerial skill is not limited to the industry. Managerial talent is much sought by government sectors, NGOs, non-corporate sectors as well.
+          The MBA programme prepares students for domestic and global careers across various industry sectors. It facilitates learning in both theory and practice of different management functions, equipping students with an integrated approach to management. Managerial skills are not only in demand in the industry but also in government sectors, NGOs, and non-corporate sectors.
           </p>
 
-          <h3 className="mt-6 text-blue-900 font-bold text-lg">PDEA's College of Engineering Manjari is offering post graduate management degree Master of Business Administrations with the intake of 60 since 2008, with the following specializations:</h3>
+          <h3 className="mt-6 text-blue-900 font-bold text-lg">PDEA's College of Engineering Manjari has been offering a postgraduate management degree, Master of Business Administration (MBA), since 2008, with an intake capacity of 60 students. The following specializations are available:</h3>
           <ol className='list-decimal list-inside my-5 ml-5 flex flex-col gap-2 text-lg'>
             <li className='mb-2'>Marketing Management</li>
             <li className='mb-2'>Financial Management</li>
@@ -81,27 +81,23 @@ function PGContent() {
             <li className='mt-2 flex flex-col gap-4 text-lg'>
               <h4 className='text-blue-900 font-bold'>(1) Maharashtra State Candidature Candidate:</h4>
               <p>
-              (i) The Candidate should be an Indian National;
+              (i) The candidate must be an Indian National.              </p>
+              <p>
+              (ii) The candidate must have passed a minimum three-year duration Bachelor's Degree awarded by any university recognized by the University Grants Commission or the Association of Indian Universities in any discipline with at least 50% marks in aggregate or equivalent (45% for candidates of Backward class categories and Persons With Disability from Maharashtra State only) or its equivalent.             
               </p>
               <p>
-              (ii) Passed minimum Three year duration Bachelors Degree awarded by any of the Universities recognized by University Grants Commission or Association of Indian Universities in any discipline with at least 50% marks in aggregate or equivalent ( at least 45% in case of candidates of backward class categories and Persons With Disability belonging to Maharashtra State only) or its equivalent;              
-              </p>
-              <p>
-              (iii) Obtained score in CET conducted by the Competent Authority.
-              </p>
+              (iii) The candidate must have obtained a score in the CET conducted by the Competent Authority.              </p>
             </li>
             <li className='mt-2 flex flex-col gap-4 text-lg'>
               <h4 className='text-blue-900 font-bold'>(2) All India Candidature Candidate, Jammu and Kashmir:</h4>
               <p className='text-blue-900 font-bold'>Migrant Candidature Candidate-</p>
               <p>
-              (i) The Candidate should be an Indian National;
+              (i) The candidate must be an Indian National.              </p>
+              <p>
+              (ii) The candidate must have passed a minimum three-year duration Bachelor's Degree awarded by a university recognized by the University Grants Commission or the Association of Indian Universities in any discipline with at least 50% marks in aggregate or equivalent (45% for candidates of Backward class categories and Persons With Disability from Maharashtra State only) or its equivalent.
               </p>
               <p>
-              (ii) Passed minimum Three year duration Bachelor's Degree awarded by the University recognized by University Grants Commission or Association of Indian Universities in any discipline with at least 50% marks in aggregate or equivalent (at least 45% in case of candidates of backward class categories and Persons With Disability belonging to Maharashtra State only) or its equivalent;
-              </p>
-              <p>
-              (iii) Obtained score in one of the following examinations;
-              </p>
+              (iii) The candidate must have obtained a score in one of the following examinations:              </p>
               <ul className='list-disc text-md ml-5'>
                 <li>CET conducted by the Competent Authority,</li>
                 <li>Graduate Management Aptitude Test Conducted by Graduate Management Admission Council, United States of America(GMAT),</li>
@@ -116,11 +112,10 @@ function PGContent() {
               <h4 className='text-blue-900 font-bold'>(3) (C) Children of NRI/OCI/PIO, Children of Indian workers in the Gulf countries, Foreign National:</h4>
               <p className='text-blue-900 font-bold'>Migrant Candidature Candidate-</p>
               <p>
-              (i)Passed minimum Three year duration Bachelor's Degree awarded by the University recognized by University Grants Commission or Association of Indian Universities in any discipline with at least 50% marks in aggregate or its equivalent;
+              (i) The candidate must have passed a minimum three-year duration Bachelor's Degree awarded by a university recognized by the University Grants Commission or the Association of Indian Universities in any discipline with at least 50% marks in aggregate or its equivalent.
               </p>
               <p>
-              (ii) Any other criterion declared by appropriate authority from time to time.              
-              </p>
+              (ii) Any other criteria declared by the appropriate authority from time to time.              </p>
             </li>
           </ul>
 

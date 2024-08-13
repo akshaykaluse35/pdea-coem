@@ -7,9 +7,9 @@ const InfrastructureAbout = () => {
       <div className="flex flex-col gap-5 justify-between items-center mb-4">
           <h2 className="text-2xl font-bold">InfrastructureAbout PDEA</h2>
         </div>
-      <span className="text-blue-900">Pune District Education Association's College Of Engineering Manjari (Bk.), Pune is located on Hadapsar Manjari Road, Manjari (Bk.), Pune. The campus is developed on a plot having land area 5 acres.</span>
-      <span className="text-blue-900">There are 3 buildings constructed in the campus with total built up area of 14007 Sq. m.</span>
-      <span className="text-blue-900">The buildings are functionally sound, aesthetically pleasant and satisfy are requirements of built up space as per AICTE norms.
+      <span className="text-blue-900">Pune District Education Association's College of Engineering, Manjari (Bk.), Pune, is situated on Hadapsar Manjari Road, Manjari (Bk.), Pune.</span>
+      <span className="text-blue-900">The campus spans 5 acres and features 3 buildings with a total built-up area of 14,007 Sq.m.</span>
+      <span className="text-blue-900">These buildings are functionally efficient, aesthetically pleasing, and meet the built-up space requirements as per AICTE norms.
 
 </span>
     </div>
