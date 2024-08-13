@@ -6,6 +6,7 @@ const DeleteFaculty = () => {
   const [selectedFaculty, setSelectedFaculty] = useState('');
   const [message, setMessage] = useState('');
   const [messageType, setMessageType] = useState('');
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
     const fetchFaculty = async () => {
@@ -29,16 +30,21 @@ const DeleteFaculty = () => {
       return;
     }
 
-    try {
-      await axios.delete(`http://localhost:5000/api/faculty/${selectedFaculty}`);
-      setMessageType('success');
-      setMessage('Faculty member deleted successfully');
-      setFacultyList(facultyList.filter(faculty => faculty._id !== selectedFaculty));
-      setSelectedFaculty('');
-    } catch (error) {
-      console.error('Error deleting faculty:', error);
-      setMessageType('error');
-      setMessage('Failed to delete faculty member');
+    if (window.confirm('Are you sure you want to delete this faculty member?')) {
+      setLoading(true);
+      try {
+        await axios.delete(`http://localhost:5000/api/faculty/${selectedFaculty}`);
+        setMessageType('success');
+        setMessage('Faculty member deleted successfully');
+        setFacultyList(facultyList.filter(faculty => faculty._id !== selectedFaculty));
+        setSelectedFaculty('');
+      } catch (error) {
+        console.error('Error deleting faculty:', error);
+        setMessageType('error');
+        setMessage('Failed to delete faculty member');
+      } finally {
+        setLoading(false);
+      }
     }
   };
 
@@ -66,9 +72,10 @@ const DeleteFaculty = () => {
         </select>
         <button
           onClick={handleDelete}
-          className="w-full mt-4 py-2 px-4 border border-transparent rounded-md shadow-sm text-white bg-orange-400 hover:bg-orange-700"
+          disabled={loading}
+          className="w-full py-2 px-4 border border-transparent rounded-md shadow-sm text-white bg-red-600 hover:bg-red-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 disabled:bg-gray-400 mt-4"
         >
-          Delete Faculty
+          {loading ? 'Deleting...' : 'Delete Faculty'}
         </button>
       </div>
     </div>

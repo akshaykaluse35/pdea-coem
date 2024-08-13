@@ -1,11 +1,21 @@
 const mongoose = require('mongoose');
 
-const FacultySchema = new mongoose.Schema({
-  name: { type: String, required: true },
-  position: { type: String, required: true },
-  image: { type: String, required: true },
-  email: { type: String, unique: true, required: true },
-  tags: { type: [String], required: true } // Added tags as an array of strings
+const facultySchema = new mongoose.Schema({
+  name: String,
+  position: String,
+  image: String,
+  email: { type: String, unique: true },
+  qualification: String,
+  experience: String,
+  expertArea: String,
+  subjectsTaught: String,
+  journalPublications: String,
+  researchProjects: String,
+  memberships: String,
+  academicProfile: String,
+  tags: [String],
 });
 
-module.exports = mongoose.model('Faculty', FacultySchema);
+const Faculty = mongoose.model('Faculty', facultySchema);
+
+module.exports = Faculty;
