@@ -6,7 +6,7 @@ const addFaculty = async (req, res) => {
     const {
       name, position, image, email, qualification, experience,
       expertArea, subjectsTaught, journalPublications,
-      researchProjects, memberships, academicProfile
+      researchProjects, memberships, academicProfile, tags
     } = req.body;
 
     const existingFaculty = await Faculty.findOne({ email });
@@ -17,7 +17,7 @@ const addFaculty = async (req, res) => {
     const faculty = new Faculty({
       name, position, image, email, qualification, experience,
       expertArea, subjectsTaught, journalPublications,
-      researchProjects, memberships, academicProfile
+      researchProjects, memberships, academicProfile, tags
     });
     await faculty.save();
     res.status(201).json(faculty);
