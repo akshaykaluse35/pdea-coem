@@ -24,17 +24,17 @@ const PresidentMsgAbout = () => {
         </div>
       </div>
       <span className="text-blue-900">
-        Our vision is based on hard work, open communication, a strong emphasis on team work and a high level of responsibility. This visionary culture allows and emphasizes our wards not only to adopt the present day challenges but also individual responsibilities to the society and our nation at large.
+        Our vision is built on hard work, open communication, a strong emphasis on teamwork, and a high level of responsibility. This visionary culture encourages our students to not only face contemporary challenges but also embrace their individual responsibilities towards society and our nation.
       </span>
       <span className="text-blue-900">
-        Learning should be based on doing things and not merely knowing things. Until and unless learning solutions relate to real life and motivate the learner to acquire and apply the knowledge, the whole process will remain superficial. Any engineering institution worth its name looks to optimize the productivity of global leaders. Our institution has set specific objectives and planned activities for achieving excellence in all spheres of technical education.
+        Learning should be grounded in practical experience rather than just theoretical knowledge. Unless learning solutions are connected to real-life situations and inspire learners to acquire and apply knowledge, the entire process remains superficial. Any esteemed engineering institution aims to maximize the productivity of future global leaders. Our institution has established specific objectives and planned activities to achieve excellence in all areas of technical education.
       </span>
       <span className="text-blue-900">
-        The service of the institution in creating personally mature, professionally equipped and service-oriented graduates is really worth mentioning. We strongly believe in academic excellence and do not compromise on teaching standards or discipline. These three things are the springboards on which we operate.
+        The contribution of our institution in producing personally mature, professionally skilled, and service-oriented graduates is truly noteworthy. We firmly believe in academic excellence and uphold high standards in teaching and discipline. These three elements are the foundation of our operations.
       </span>
       <div className="flex flex-col text-center gap-2 my-5">
         <h4 className="text-lg font-bold">SUCCESS IS A JOURNEY NOT A DESTINATION</h4>
-        <span>Ensure That You Are In The Right Direction, Instead Of Just At The Right Speed.</span>
+        <span>Ensure that you are moving in the right direction, rather than merely at the right speed.</span>
       </div>
     </div>
   );

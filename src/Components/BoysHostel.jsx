@@ -3,10 +3,11 @@ import { motion } from 'framer-motion';
 import GallerySection from '../Components/academics/GallerySection'
 
 const galleryImages = [
-  "https://pdeacoem.s3.us-east-2.amazonaws.com/miscphotos/BoyAAAYashodatta%20Hostel.jpg",
-  "https://pdeacoem.s3.us-east-2.amazonaws.com/miscphotos/BoyBoys%20Hostel%20Lobbee.jpg",
-  "https://pdeacoem.s3.us-east-2.amazonaws.com/miscphotos/BoyBoys%20Hostel%20Water%20Purifier.jpg",
   "https://pdeacoem.s3.us-east-2.amazonaws.com/miscphotos/BoyBoys%20Hostel.jpg",
+  "https://boyss.vercel.app/Hostels/H6.jpg",
+  "https://boyss.vercel.app/Hostels/H4.jpg",
+  "https://boyss.vercel.app/Hostels/H3.jpg",
+  "https://boyss.vercel.app/Hostels/H1.jpg",
 ];
 
 function BoysHostel() {
@@ -46,21 +47,21 @@ function BoysHostel() {
                 <tr className="border-b border-gray-200 hover:bg-gray-100">
                   <td className="py-2 px-4">Yashodutta Boys Hostel</td>
                   <td className="py-2 px-4">113</td>
-                  <td className="py-2 px-4">1700/Per Month</td>
-                  <td className="py-2 px-4">03/4/5</td>
+                  <td className="py-2 px-4">2000/Per Month</td>
+                  <td className="py-2 px-4">05</td>
                   <td className="py-2 px-4">WIFI connection, Water Heater, CCTV, Water Purifier, & Security</td>
                 </tr>
                 <tr className="border-b border-gray-200 hover:bg-gray-100">
                   <td className="py-2 px-4">Airawat Boys Hostel</td>
                   <td className="py-2 px-4">100</td>
-                  <td className="py-2 px-4">1700/Per Month</td>
+                  <td className="py-2 px-4">2000/Per Month</td>
                   <td className="py-2 px-4">4/5</td>
                   <td className="py-2 px-4">WIFI connection,Water Heater, CCTV, Water Purifier, & Security</td>
                 </tr>
                 <tr className="border-b border-gray-200 hover:bg-gray-100">
                   <td className="py-2 px-4">Swanand Boys Hostel</td>
                   <td className="py-2 px-4">44</td>
-                  <td className="py-2 px-4">1700/Per Month</td>
+                  <td className="py-2 px-4">2000/Per Month</td>
                   <td className="py-2 px-4">03</td>
                   <td className="py-2 px-4">WIFI connection,Water Heater, CCTV, Water
                   Purifier, Security</td>

@@ -13,8 +13,8 @@ function TandPHome() {
     >
       <h1 className="text-2xl font-medium text-gray-800  py-2">About Training & Placement</h1>
       <div className='flex flex-col gap-5 '>
-        <span>The Training and Placement Office promotes the placement of students who have graduated from the Institute, as well as cooperating with prominent organizations and institutes to build internship and training programmes for students.</span>
-        <span>The office works with many industrial companies, corporate houses, and other organizations that conduct campus interviews and select graduate and post-graduate students from all fields. In addition to catering to other logistics, the Training and Placement Office offers the infrastructure for conducting group discussions, examinations, and interviews. The office connects with numerous sectors around the country, with almost ten (on and off campus) organizations visiting the university for campus interviews. The industries that approach to institution fall within the purview of:</span>
+        <span>The Training and Placement Office facilitates the placement of graduates from the Institute by collaborating with prominent organizations and institutions to develop internship and training programs for students.</span>
+        <span>The office works with various industrial companies, corporate houses, and other organizations to conduct campus interviews and select graduate and post-graduate students from all fields. It provides the necessary infrastructure for group discussions, examinations, and interviews, and coordinates with numerous sectors nationwide, hosting nearly ten organizations for on and off-campus interviews. The industries that engage with the institution include:</span>
         <ol className='list-decimal ml-10'>
           <li>Core engineering industries</li>
           <li>IT & IT enabled services.</li>
@@ -24,8 +24,8 @@ function TandPHome() {
           <li>Management Organizations.</li>
           <li>R&D Laboratories.</li>
         </ol>
-        <span>The placement season lasts all year, beginning in the last week of July and ending in March. Pre-placement discussions are also held in this respect at mutual convenience. The Training and Placement Office announces job offers, interview dates, candidate selection, and so forth.</span>
-        <span>A group of members from the undergraduate engineering and postgraduate management disciplines assists the Placement office. The committee also has a set of unbreakable rules. Student members are heavily involved in the implementation of these policy choices.</span>
+        <span>The placement season runs throughout the year, starting in the last week of July and concluding in March. Pre-placement discussions are also held at mutually convenient times. The Training and Placement Office announces job offers, interview dates, candidate selections, and more.</span>
+        <span>A group of members from the undergraduate engineering and postgraduate management disciplines assists the Placement Office. This committee follows a set of established rules, with student members actively involved in implementing these policies.</span>
       </div>
     </motion.div>
 
@@ -37,8 +37,8 @@ function TandPHome() {
     >
       <h1 className="text-2xl font-medium text-gray-800 mt-10 py-2">Training:</h1>
       <div className='flex flex-col gap-5 '>
-        <span>Students are sent to various establishments for practical training based on their area of interest and specialization. Faculty members from many disciplines monitor the training of students in different industries. The analysis of industrial training is carried out based on the assessment report received from the industries, the subject matter, and the presentation of the training report presented by the students, as well as the viva-voce performed by the expert committee formed for the purpose.</span>
-        <span>In addition to that; Our college has Started an initiative in the name as " CAMPUS CONNECTORS " , where student coordinators will be having fair enough chances to work with TPO Cell & Company Delegates on administrative matters.</span>
+        <span>Students are sent to various establishments for practical training based on their areas of interest and specialization. Faculty members from different disciplines monitor the students' training in various industries. The analysis of industrial training is conducted based on assessment reports received from the industries, the content of the training, the presentation of the training report by the students, and the viva-voce conducted by an expert committee formed for this purpose.</span>
+        <span>Additionally, our college has initiated a program called "CAMPUS CONNECTORS," where student coordinators have the opportunity to work with the Training and Placement Office and company delegates on administrative matters.</span>
       </div>
     </motion.div>
 

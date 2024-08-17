@@ -113,40 +113,37 @@ function UGContent() {
               <li className='mt-2 flex flex-col gap-4 text-lg'>
                 <h4 className='text-blue-900 font-bold'>(1) Maharashtra State Candidature Candidate:</h4>
                 <p>
-                (i) The Candidate should be an Indian National; 
+                (i) The candidate must be an Indian National. 
                 </p>
                 <p>
-                (ii) Passed HSC or its equivalent examination with Physics and Mathematics as compulsory subjects along with one of the Chemistry or Biotechnology or Biology or Technical or Vocational subjects and obtained at least 50 % marks (at least 45% marks, in case of Backward class categories and Persons with Disability candidates belonging to Maharashtra State only) in the above subjects taken together;
-                </p>
-                <span className=' text-blue-900 font-bold flex justify-center'>OR</span>
-                <p>
-                (ii) Passed Diploma in Engineering and Technology and obtained at least 50% marks (at least 45 % marks, in case of Backward class categories and Persons with Disability candidates belonging to Maharashtra State only);
+                (ii) The candidate must have passed HSC or its equivalent examination with Physics and Mathematics as compulsory subjects, along with one of the following: Chemistry, Biotechnology, Biology, Technical, or Vocational subjects. The candidate must have obtained at least 50% marks (45% for Backward class categories and Persons with Disability candidates from Maharashtra State) in these subjects taken together;
                 </p>
                 <span className=' text-blue-900 font-bold flex justify-center'>OR</span>
                 <p>
-                (ii) Passed B.Sc. Degree from a Recognized University as defined by UGC and obtained at least 50 % marks (at least 45 % marks, in case of Backward class categories and Persons with Disability candidates belonging to Maharashtra State only);                </p>
-                <p>
-                (iii) Obtained score in CET conducted by the Competent Authority.
+                (ii) The candidate must have passed a Diploma in Engineering and Technology with at least 50% marks (45% for Backward class categories and Persons with Disability candidates from Maharashtra State);
                 </p>
+                <span className=' text-blue-900 font-bold flex justify-center'>OR</span>
+                <p>
+                (ii) The candidate must have passed a B.Sc. Degree from a recognized university as defined by the UGC with at least 50% marks (45% for Backward class categories and Persons with Disability candidates from Maharashtra State).                </p>
+                <p>
+                (iii) The candidate must have obtained a score in the CET conducted by the Competent Authority.                </p>
               </li>
 
               <li className='mt-2 flex flex-col gap-4 text-lg'>
                 <h4 className='text-blue-900 font-bold'>(2) All India Candidature Candidates, Jammu and Kashmir Migrant Candidature Candidates:</h4>
                 <p>
-                (i) The Candidate should be an Indian National; 
-                </p>
+                (i) The candidate must be an Indian National.                </p>
                 <p>
-                (ii) Passed HSC or its equivalent examination with Physics and Mathematics as compulsory subjects along with one of the Chemistry or Biotechnology or Biology or Technical or Vocational subjects and obtained at least 50 % marks (at least 45 % marks, in case of Backward class categories and Persons with Disability candidates belonging to Maharashtra State only) in the above subjects taken together;                </p>
+                (ii) The candidate must have passed HSC or its equivalent examination with Physics and Mathematics as compulsory subjects, along with one of the following: Chemistry, Biotechnology, Biology, Technical, or Vocational subjects. The candidate must have obtained at least 50% marks (45% for Backward class categories and Persons with Disability candidates from Maharashtra State) in these subjects taken together;               </p>
                 <span className=' text-blue-900 font-bold flex justify-center'>OR</span>
                 <p>
-                (ii) Passed Diploma in Engineering and Technology and obtained at least 50 % marks (at least 45 % marks, in case of Backward class categories and Persons with Disability candidates belonging to Maharashtra State only);                </p>
+                (ii) The candidate must have passed a Diploma in Engineering and Technology with at least 50% marks (45% for Backward class categories and Persons with Disability candidates from Maharashtra State);               </p>
                 <span className=' text-blue-900 font-bold flex justify-center'>OR</span>
                 <p>
-                (ii) Passed B.Sc. Degree from a Recognized University as defined by University Grants Commission and obtained at least 50 % marks (at least 45 % marks, in case of Backward class categories and Persons with Disability candidates belonging to Maharashtra State only);
+                (ii) The candidate must have passed a B.Sc. Degree from a recognized university as defined by the University Grants Commission with at least 50% marks (45% for Backward class categories and Persons with Disability candidates from Maharashtra State).
                 </p>
                 <p>
-                (iii) Obtained score in CET or JEE Main Paper I.
-                </p>
+                (iii) The candidate must have obtained a score in CET or JEE Main Paper I.                </p>
               </li>
 
               <li className='mt-2 flex flex-col gap-4 text-lg'>
@@ -154,11 +151,10 @@ function UGContent() {
                 (3) Children of NRI/OCI/PIO, Children of Indian workers in the Gulf countries, Foreign National:
                 </h4>
                 <p>
-                (i) The candidate should have passed the HSC or its equivalent examination with Physics and Mathematics as compulsory subjects along with one of the Chemistry or Biotechnology or Biology or Technical or Vocational subjects, and obtained at least 50 % marks; 
+                (i) The candidate must have passed the HSC or its equivalent examination with Physics and Mathematics as compulsory subjects, along with one of the following: Chemistry, Biotechnology, Biology, Technical, or Vocational subjects, and obtained at least 50% marks.
                 </p>
                 <p>
-                (ii) Any other criterion declared by appropriate authority from time to time.                
-                </p>
+                (ii) Any other criteria declared by the appropriate authority from time to time.                </p>
               </li>
             </ul>
 
@@ -284,24 +280,22 @@ function UGContent() {
 
           <h3 className="mt-6 text-blue-900 font-bold text-lg">Eligibility Conditions And Requirements For Admissions:</h3>
           <p>
-            The information is given below in brief. For details about Engineering Admission and Eligibility Criteria, refer DTE Maharashtra website          </p>
+          Below is a brief overview. For detailed information about Engineering Admission and Eligibility Criteria, please refer to the DTE Maharashtra website.         </p>
           <ul className='my-5'>
 
             <li className='mt-2 flex flex-col gap-4 text-lg'>
               <h4 className='text-blue-900 font-bold'>(1) For Maharashtra State Candidature Candidate and All India Candidature:</h4>
               <p>
-              (i) The Candidate should be an Indian National;
-              </p>
+              (i) The candidate must be an Indian National.              </p>
               <p>
-              (ii) Passed Diploma Course in Engineering and Technology with at least 45% marks (40% marks in case of candidates of Backward class categories and Persons with Disability belonging to Maharashtra State only) in appropriate branch of Engineering and Technology from an All India Council for Technical Education or Central or State Government approved Institution or its equivalent;              
+              (ii) The candidate must have passed a Diploma Course in Engineering and Technology with at least 45% marks (40% marks for candidates belonging to Backward class categories and Persons with Disability from Maharashtra State only) in the appropriate branch of Engineering and Technology from an institution approved by the All India Council for Technical Education, Central, or State Government, or its equivalent;              
               </p>
               <span className=' text-blue-900 font-bold flex justify-center'>OR</span>
               <p>
-              (ii) Passed B.Sc. Degree from a University Grants Commission (UGC) or Association of Indian Universities recognized University with at least 45% marks (40% in case of candidates of Backward class categories and Persons with Disability belonging to Maharashtra State only) and passed HSC with Mathematics as a subject Provided that students belonging to this category shall clear the subjects of Engineering Graphics/ Engineering Drawing and Engineering Mechanics of the first year Engineering Program along with second year subjects.              
+              (ii) The candidate must have passed a B.Sc. Degree from a university recognized by the University Grants Commission (UGC) or the Association of Indian Universities with at least 45% marks (40% for candidates belonging to Backward class categories and Persons with Disability from Maharashtra State only) and must have passed HSC with Mathematics as a subject. Students in this category must clear the subjects of Engineering Graphics/Engineering Drawing and Engineering Mechanics from the first-year Engineering Program along with second-year subjects.              
               </p>
               <p>
-              (iii) Any other criterion declared by appropriate authority from time to time.
-              </p>
+              (iii) Any other criteria declared by the appropriate authority from time to time.              </p>
             </li>
           </ul>
 
