@@ -60,7 +60,7 @@ export const firstYearDepartmentData = {
 
 export const computerDepartmentData = {
   title: "Computer Engineering Department",
-  description: "Meet our dedicated teachers for the first year department.",
+  description: "Meet our dedicated teachers for the Computer Engineering Department.",
   teachers: [
     {
       id: 1,
@@ -114,7 +114,7 @@ export const computerDepartmentData = {
 
 export const eandtcDepartmentData = {
   title: "Electronics and Telecommunication Engineering Department",
-  description: "Meet our dedicated teachers for the first year department.",
+  description: "Meet our dedicated teachers for the ENTC Department.",
   teachers: [
     {
       id: 1,
@@ -174,7 +174,7 @@ export const eandtcDepartmentData = {
 
 export const itDepartmentData = {
   title: "Information Technology Department",
-  description: "Meet our dedicated teachers for the first year department.",
+  description: "Meet our dedicated teachers for the IT department.",
   teachers: [
     {
       id: 1,
@@ -233,7 +233,7 @@ export const itDepartmentData = {
 
 export const icDepartmentData = {
   title: "Instrumentation and Control Department",
-  description: "Meet our dedicated teachers for the first year department.",
+  description: "Meet our dedicated teachers for the Instrumentation & Control Department",
   teachers: [
     {
       id: 1,
@@ -293,7 +293,7 @@ export const icDepartmentData = {
 
 export const mbaDepartmentData = {
   title: "M. B. A Department",
-  description: "Meet our dedicated teachers for the first year department.",
+  description: "Meet our dedicated teachers for the MBA Department.",
   teachers: [
     {
       id: 1,
@@ -352,7 +352,7 @@ export const mbaDepartmentData = {
 
 export const mechDepartmentData = {
   title: "Mechanical Engineering Department",
-  description: "Meet our dedicated teachers for the first year department.",
+  description: "Meet our dedicated teachers for the Mechanical Engineering Department.",
   teachers: [
     {
       id: 1,
