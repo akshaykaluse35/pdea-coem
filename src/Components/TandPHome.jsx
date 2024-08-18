@@ -87,34 +87,37 @@ function TandPHome() {
                 <th>Subjects Taught:</th>
                 <th>Journal Publications:</th>
                 <th>Petants:</th>
+                <th>Books Published:</th>
+                <th>ResearchProject Handled:</th>
+                <th>Memberships:</th>
+                <th>Academic Profile:</th>
               </tr>
             </thead>
             <tbody>
                 <tr className="border-b border-gray-200 hover:bg-gray-100">
                   <td>
-                    <sapn>Teaching: 3.5</sapn>
-                    <sapn>Industry: 2.5</sapn>
+                    <sapn>Teaching: 24.0</sapn>
+                    <sapn>Industry: 1.0</sapn>
                   </td>
                   <td>
                   <div className='flex flex-col px-5'>
-                    <sapn>Soft Skill Training</sapn>
-                    <sapn>Mechanical Engineering</sapn>
-                    <sapn>Software Systems Skills</sapn>
-                    <sapn>Positive Communication Skills</sapn>
+                    <sapn>Heat Power</sapn>
                     </div>
                     </td>
                   <td>
                     <div className='flex flex-col px-5'>
-                    <sapn>Communication Skills</sapn>
-                    <sapn>English, Information Technology</sapn>
-                    <sapn>Alternate Energy Sources</sapn>
-                    <sapn>Graphics</sapn>
-                    <sapn>Mechanical Engineering Materials (MEM)</sapn>
-                    <sapn>Auto CAD, Management, Heating - Ventilation & Air Conditioning (HVAC)</sapn>
+                    <sapn>EVS</sapn>
+                    <sapn>SME</sapn>
+                    <sapn>ENGINEERING GRAPHICS</sapn>
                     </div>
                     </td>
                   <td>NA</td>
                   <td>NA</td>
+                  <td>NA</td>
+                  <td>NA</td>
+                  <td>NA</td>
+                  <td><a href="http://www.pdeacoem.org/erp/admin/downloadresume?employeeid=113" target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:underline">View Profile</a></td>
+                  
                 </tr>
             </tbody>
           </table>
