@@ -264,13 +264,14 @@ const AddFaculty = ({ facultyToUpdate }) => {
           </label>
           <div className="flex flex-wrap gap-2">
             {[
-              "M. B. A",
+              "First Year Engineering",
               "Information Technology",
               "Computer Engineering",
               "Electronics and Telecommunication Engineering",
               "Instrumentation and Control",
               "Mechanical Engineering",
               "Library",
+              "M. B. A",
             ].map((tag) => (
               <label key={tag} className="inline-flex items-center">
                 <input
