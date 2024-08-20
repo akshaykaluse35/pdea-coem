@@ -13,7 +13,7 @@ const messages = [
   {
     id: 2, // Unique identifier for each message
     name: "Dr. R. V. Patil",
-    image: require("../../assets/images/Principal.jpg"), // Replace with your president's image path
+    image: require("../../assets/images/Principals.jpg"), // Replace with your president's image path
     position: "Principal",
     linkto:"/about",
     message: "It is my immense pleasure to welcome you to the creative world of Engineering. PDEA's College of Engineering, Manjari (Bk) at Pune, is a prominent engineering education center, located in the heart ...",
