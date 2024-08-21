@@ -18,7 +18,7 @@ const PlacedStudents = () => {
           <img
             src={topper.image}
             alt={topper.name}
-            className="w-full h-40 object-cover" // Image styles
+            className="w-full h-56 object-fit" // Image styles
           />
           <div className="px-4 py-2">
             <h3 className="text-base font-medium text-gray-800">{topper.name}</h3>

@@ -58,7 +58,7 @@ function TandPHome() {
                 <img
                   src={officer.photo}
                   alt={officer.name}
-                  className="w-full h-40 object-cover" // Image styles
+                  className="w-full h-50 object-fit" // Image styles
                 />
               </td>
               <tc className="flex flex-col ml-5">

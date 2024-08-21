@@ -70,7 +70,7 @@ const Statistic = () => {
           <div key={data.id} className="stat-item bg-white p-4 rounded-lg shadow-md text-center hover:shadow-lg transition duration-300">
             <h3>{data.title}</h3>
             <h1 className="stat-number text-3xl font-bold text-orange-500">
-              {counts.find((item) => item.id === data.id).count}
+              +{counts.find((item) => item.id === data.id).count}
             </h1>
           </div>
         ))}
