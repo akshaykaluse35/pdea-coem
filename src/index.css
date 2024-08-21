@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import "~slick-carousel/slick/slick.css"; 
+@import "~slick-carousel/slick/slick-theme.css";
+
+:root {
+  --background-color: #FFFFFF;
+  --text-color: #4855bb;
+  --cta-color: #ec9035;
+}
+
+::-webkit-scrollbar{
+  width: 8px;
+}
+::-webkit-scrollbar-thumb{
+  background-color: var(--cta-color);
+  border-radius: 30px;
+}
+
+@layer utilities {
+  .paused{
+    animation-play-state: paused;
+  }
+}
